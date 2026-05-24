@@ -9,6 +9,13 @@ A cross-platform Python automation script that scans your system for PDF files a
 * **Error Prevention**: Skips duplicate files safely without crashing out.
 * **Deep Scanning**: Searches recursively through deeply nested folders.
 
+## 🛠️ Requirements
+
+* **Python 3.6+**
+* **Built-in libraries only**
+* **No external packages needed**
+* **Cross-platform compatibility**
+
 ## 💻 How to Run It
 
 ### Windows
