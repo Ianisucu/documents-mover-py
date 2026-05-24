@@ -16,6 +16,29 @@ A cross-platform Python automation script that scans your system for PDF files a
 * **No external packages needed**
 * **Cross-platform compatibility**
 
+## 📥 Command Line Python Installation
+
+If Python is not yet installed on your system, open your terminal and run the appropriate commands:
+
+### Windows (PowerShell)
+```powershell
+winget source update
+winget install Python.Python.3 --scope machine
+# Restart PowerShell after installation completes
+```
+
+### macOS (Terminal)
+```bash
+brew update
+brew install python
+```
+
+### Linux (Ubuntu / Debian Terminal)
+```bash
+sudo apt update
+sudo apt install python3 python3-pip -y
+```
+
 ## 💻 How to Run It
 
 ### Windows
