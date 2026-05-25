@@ -9,9 +9,11 @@ curr_dir = os.getcwd()
 
 documents_dir.mkdir(parents=True, exist_ok=True)
 
+EXTENSIONS = (".pdf", ".txt", ".rtf", ".odt", ".md",".doc", ".docx", ".docm", ".dotx",".xls", ".xlsx", ".xlsm", ".csv", ".ods",)
+
 for root, dirs, files in os.walk(downloads_dir):
     for file in files:
-        if file.endswith(".pdf"):
+        if file.lower().endswith(EXTENSIONS):
             src_file = os.path.join(root, file)
             if os.path.exists(src_file):
                 try:
